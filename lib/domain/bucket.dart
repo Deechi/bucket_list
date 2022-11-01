@@ -1,4 +1,5 @@
 class Bucket {
+  String? id;
   String? title;
   String? memo;
   DateTime? registTime;
@@ -7,9 +8,6 @@ class Bucket {
   DateTime? completeTime;
   String? completeFlag;
 
-  Bucket(this.title, this.memo, this.registTime, this.updateTime,
-          this.startTime, this.completeTime, this.completeFlag);
-
-  // Bucket(this.title);
+  Bucket(this.id, this.title, this.memo, this.startTime, this.completeTime, this.completeFlag);
 
 }
